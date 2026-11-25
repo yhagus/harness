@@ -1,7 +1,3 @@
-# yhagus's Harness
-
-My [Claude Code](https://docs.claude.com/en/docs/claude-code) setup: [Agent Skills](https://agentskills.io/home), subagents, hooks, global `CLAUDE.md` and settings. It holds the skills I wrote, plus a list of the third-party skills I use, so one script can restore everything on a new machine.
-
 > [!IMPORTANT]
 > This repo is tuned to my own workflow: Conventional Commits, NestJS / Nuxt / Vue / React work, and the [rtk](https://github.com/rtk-ai/rtk) output filter. Take what fits, but read a skill or agent before relying on it.
 
