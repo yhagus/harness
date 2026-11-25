@@ -1,0 +1,7 @@
+---
+type: llm
+focus: trace
+weight: 1
+---
+
+The result matches this description: Creates ./csv-tidy with a src layout (src/csv_tidy/ with __init__.py and a CLI module), a pyproject.toml using the [project] table with name "csv-tidy" and a [project.scripts] entry "csv-tidy" pointing into csv_tidy, a tests/ folder with at least one test_*.py, a README.md and a Python .gitignore. No setup.py, no LICENSE picked on the user's behalf (its absence is mentioned), and the bundled checker passes with no errors. It does not stop to ask for confirmation, since the user said to go ahead.

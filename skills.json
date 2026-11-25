@@ -1,0 +1,67 @@
+{
+  "skills": [
+    {
+      "source": "antfu/skills",
+      "skills": [
+        "nuxt",
+        "vue"
+      ]
+    },
+    {
+      "source": "blader/humanizer",
+      "skills": [
+        "humanizer"
+      ]
+    },
+    {
+      "source": "cloudflare/security-audit-skill",
+      "skills": [
+        "security-audit"
+      ]
+    },
+    {
+      "source": "danyuchn/asd-ste100-skill",
+      "skills": [
+        "asd-ste100"
+      ]
+    },
+    {
+      "source": "mattpocock/skills",
+      "skills": [
+        "ask-matt",
+        "code-review",
+        "codebase-design",
+        "diagnosing-bugs",
+        "domain-modeling",
+        "grill-me",
+        "grill-with-docs",
+        "grilling",
+        "handoff",
+        "implement",
+        "implement-spec",
+        "improve-codebase-architecture",
+        "pr",
+        "prototype",
+        "research",
+        "retro",
+        "setup-matt-pocock-skills",
+        "tdd",
+        "teach",
+        "to-questionnaire",
+        "to-spec",
+        "to-tickets",
+        "triage",
+        "wait-what",
+        "wayfinder",
+        "wizard",
+        "writing-for-agents"
+      ]
+    },
+    {
+      "source": "vercel-labs/skills",
+      "skills": [
+        "find-skills"
+      ]
+    }
+  ]
+}

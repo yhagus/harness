@@ -1,0 +1,64 @@
+{
+  "model": "opus",
+  "modelSettings": {
+    "claude-sonnet-5-5": {
+      "effortLevel": "medium"
+    },
+    "claude-opus-5-5": {
+      "effortLevel": "medium"
+    },
+    "claude-fable-5-2": {
+      "effortLevel": "medium"
+    }
+  },
+  "env": {
+    "DISABLE_AUTO_COMPACT": "1",
+    "CLAUDE_CODE_EXPERIMENTAL_CODE_MODE": "0"
+  },
+  "attribution": {
+    "commit": "",
+    "pr": "",
+    "sessionUrl": false
+  },
+  "includeCoAuthoredBy": false,
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(rtk rg:*)",
+      "Bash(rtk grep:*)",
+      "Bash(rtk read:*)",
+      "Bash(rtk ls:*)",
+      "Bash(rtk tree:*)",
+      "Bash(rtk wc:*)",
+      "Bash(rtk git log:*)",
+      "Bash(rtk git diff:*)",
+      "Bash(rtk git show:*)",
+      "Bash(rtk git status:*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "rtk hook claude"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ~/.claude/hooks/block-no-verify.mjs"
+          }
+        ]
+      }
+    ]
+  }
+}

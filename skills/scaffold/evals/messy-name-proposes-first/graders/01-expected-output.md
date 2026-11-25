@@ -1,0 +1,7 @@
+---
+type: llm
+focus: trace
+weight: 1
+---
+
+The result matches this description: Does not create any files yet. Proposes a tree for a TypeScript library in a folder named data-viz-tools, with package.json name "data-viz-tools", src/index.ts as the entry point, a colocated *.test.ts, tsconfig.json, README.md and .gitignore. States that the name was normalized from "Data Viz Tools", and asks for a go-ahead before writing.
